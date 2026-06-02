@@ -34,7 +34,7 @@ class BSTTests(unittest.TestCase):
 
         self.assertFalse(lookup(tree, "hi"))
         self.assertTrue(lookup(tree, "hello"))
-        self.assertTrue(lookup(tree, "goodbye"))
+        self.assertTrue(lookup(tree, "good afternoon"))
 
     def test_points(self):
         def comes_before(a: Any, b: Any) -> bool:
